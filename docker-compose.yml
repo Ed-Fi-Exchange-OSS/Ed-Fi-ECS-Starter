@@ -10,7 +10,8 @@ networks:
   default:
     external: true
     name: "${AWS_SG_ID}"
-      
+volumes:
+  adminapp-bulk-hashcache:
 services:
   api:
     image: "${ODSAPI_IMAGE}"
@@ -86,3 +87,5 @@ services:
       test: "wget --no-verbose --tries=1 --spider http://localhost:8082 || exit 1"
       start_period: "120s"
       retries: 3
+    volumes:
+      - adminapp-bulk-hashcache:/app/BulkUploadHashCache
