@@ -1,10 +1,13 @@
 # Ed-Fi ECS Starter
 
-This repository contains the codebase for the Ed-Fi ECS Starter. To work with what is offered in this repository, set up your ECS enviroment by referring to [Getting started with Ed-Fi ECS Starter](./START.md).
+This repository contains the codebase and instructions on how to deploy the Ed-Fi ODS Web API to AWS Elastic Container Service (ECS). The general idea of this repository is to compile multiple methods of achieving the deployment. As the community collaborates, we anticipate discovering more methods.
 
-Specifications and details regarding configuration and pricing can be read by reffering to [Ed-Fi ECS Starter Specifications](./SPECS.md).
 
-## Legal Information
+### Deploying Ed-Fi ODS to ECS with [Terraform Scripts](src/terraform).
+
+Please check Terraform Scripts [README.md](src/terraform/README.md) for detailed instructions.
+
+### Legal Information
 
 Copyright (c) 2021 Ed-Fi Alliance, LLC and contributors.
 

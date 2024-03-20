@@ -1,7 +1,6 @@
-# <Insert Repository Name Here> Notices
+# <Ed-Fi ECS Starter> Notices
 
-This product includes software developed at the [Ed-Fi
-Alliance](https://www.ed-fi.org).
+This product includes software developed by Ed-Fi [Customer Success Team](https://success.ed-fi.org).
 
 Copyright (c) 2021 Ed-Fi Alliance, LLC and contributors.
 

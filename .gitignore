@@ -2,3 +2,9 @@ tmp/
 **.envrc
 .DS_Store
 env.ps1
+src/terraform/.terraform
+src/terraform/.terraform.lock.hcl
+src/terraform/.terraform.tfstate.lock.info
+src/terraform/terraform.tfstate
+src/terraform/terraform.tfstate.backup
+
